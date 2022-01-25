@@ -3,7 +3,7 @@ m = n
 s = 0
 while n > 0:
     r = n % 10
-    s = s + r * r * r //for 3 digits 3 rs for four digits 4 digit//
+    s = s + r * r * r  #for 3 digits 3 rs for four digits 4 digit
     n = n // 10
 if s == m:
     print("Given number is a Armstrong number:")
