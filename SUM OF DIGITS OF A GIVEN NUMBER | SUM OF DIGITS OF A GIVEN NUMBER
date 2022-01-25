@@ -1,0 +1,7 @@
+n=int(input("Enter the given number:"))
+s=0
+while n > 0:
+    r = n % 10       #PYTHON PROGRAM ON SUM OF DIGITS OF A GIVEN NUMBER SUM OF DIGITS OF A GIVEN NUMBER
+    s = s + r
+    n = n // 10
+print("sum of digits of a given number=",s)
